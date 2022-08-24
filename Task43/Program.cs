@@ -21,7 +21,7 @@ string CrossPoint (double bn1, double kn1, double bn2,double kn2)
 {
     double xn = (bn2 - bn1) / (kn1 - kn2);
     double yn = kn1* xn + bn1;
-    return ($"Точки пересечения двух прямых: ({xn} : {yn})");  
+    return ($"Точка пересечения двух прямых: ({xn} : {yn})");  
 }
 
 string res = CrossPoint(b1,k1,b2,k2);
