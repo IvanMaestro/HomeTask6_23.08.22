@@ -25,7 +25,7 @@ void PrintArray(int[] arr)
     Console.WriteLine("]");
 }
 
-int PosCount (int[] arr2)
+int PosCount(int[] arr2)
 {
     int count = 0;
     for (int i = 0; i < arr2.Length; i++)
